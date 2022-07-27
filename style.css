@@ -1,0 +1,31 @@
+div {
+    margin: 25px;
+    
+    height: 200px;
+    width: 400px;
+    background-color:  #2f346f;
+    position: fixed;
+    animation-name: shapes; animation-direction: alternate-reverse;
+    animation-duration: 7s;
+    animation-iteration-count: 5;
+    animation-delay: 2s ease-in;
+    
+}
+@keyframes shapes {
+     25% {
+        background-color: #12b912;
+        transform: skew(20deg);
+         }
+
+    50% {
+        background-color: #f25f;
+        border-radius: 50%;
+        }   
+
+   75% {
+        background-color: orange;
+        height: 400px;
+        
+         }
+    
+}
